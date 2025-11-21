@@ -1,56 +1,89 @@
+```bash
+$ cat README.md
+```
+
 # ihave17bucks
 
-```
-$ cat /etc/os-release | grep PRETTY_NAME
-PRETTY_NAME="Arch Linux"
-```
+```bash
+$ uname -a
+Linux arch 6.x.x-arch1-1 #1 SMP PREEMPT_DYNAMIC x86_64 GNU/Linux
 
-## about
-
-low-level stuff. haxe when i need to ship fast. c++ when i need it done right.
-
-```c++
-class Developer {
-    public:
-        std::string name = "ihave17bucks";
-        std::vector<std::string> languages = {"C++", "Haxe", "C", "Python"};
-        bool uses_arch = true;
-};
-```
-
-## stack
-
-```
-[~]$ ls /usr/bin/ | grep -E 'gcc|g++|haxe|make|gdb'
+$ whoami
+ ___  ___  ___  ________  ___      ___ _______     _____  ________  ________  ___  ___  ________  ___  __    ________      
+|\  \|\  \|\  \|\   __  \|\  \    /  /|\  ___ \   / __  \|\_____  \|\   __  \|\  \|\  \|\   ____\|\  \|\  \ |\   ____\     
+\ \  \ \  \\\  \ \  \|\  \ \  \  /  / | \   __/| |\/_|\  \\|___/  /\ \  \|\ /\ \  \\\  \ \  \___|\ \  \/  /|\ \  \___|_    
+ \ \  \ \   __  \ \   __  \ \  \/  / / \ \  \_|/_\|/ \ \  \   /  / /\ \   __  \ \  \\\  \ \  \    \ \   ___  \ \_____  \   
+  \ \  \ \  \ \  \ \  \ \  \ \    / /   \ \  \_|\ \   \ \  \ /  / /  \ \  \|\  \ \  \\\  \ \  \____\ \  \\ \  \|____|\  \  
+   \ \__\ \__\ \__\ \__\ \__\ \__/ /     \ \_______\   \ \__Y__/ /    \ \_______\ \_______\ \_______\ \__\\ \__\____\_\  \ 
+    \|__|\|__|\|__|\|__|\|__|\|__|/       \|_______|    \|__|__|/      \|_______|\|_______|\|_______|\|__| \|__|\_________\
+                                                                                                               \|_________|
+$ pwd
+/home/ihave17bucks/github
 ```
 
-- **languages:** C++, Haxe, C, Python, Shell
-- **build:** make, cmake, gcc/g++
-- **editor:** vim/neovim
-- **os:** arch linux
+## $ cat about.txt
 
-## projects
+```
+i just program for fun really nothing to big really most a c++ person
+```
+
+## $ ./build-info --languages
 
 ```bash
-$ find ~/projects -type d -maxdepth 1
+#!/bin/bash
+
+LANGS=(
+  "C++"
+  "Lua"
+  "Javascript"
+  "Python"
+  "DOCKERFILE"
+)
+
+for lang in "${LANGS[@]}"; do
+  echo "  - $lang"
+done
 ```
 
-check the pinned repos below
+## $ which tools
 
-## stats
+```bash
+$ pacman -Q | grep -E 'gcc|clang|cmake|make|vim|git'
+gcc 13.2.1-5
+cmake 3.28.1-1
+make 4.4.1-2
+neovim 0.9.5-2
+git 2.43.0-1
+gdb 14.1-1
+```
 
-![stats](https://github-readme-stats.vercel.app/api?username=ihave17bucks&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117)
-
-## contact
+## $ ls -la ~/projects/
 
 ```
-[ihave17bucks@arch ~]$ echo $CONTACT
-github.com/ihave17bucks
+drwxr-xr-x  - ihave17bucks  .
+drwxr-xr-x  - ihave17bucks  ..
+drwxr-xr-x  - ihave17bucks  WebOS/
+drwxr-xr-x  - ihave17bucks FunnyFlow
+```
+
+see pinned repos
+
+## $ curl -s https://api.github.com/users/ihave17bucks/stats
+
+![](https://github-readme-stats.vercel.app/api?username=ihave17bucks&show_icons=true&theme=dark&hide_border=true&bg_color=000000&title_color=00ff00&text_color=00ff00&icon_color=00ff00)
+
+## $ echo $CONTACT
+
+```bash
+ihave17bucks@arch:~$ cat << EOF
+> github: github.com/ihave17bucks
+> status: idk
+EOF
 ```
 
 ---
 
-```
-$ uptime
- currently compiling...
+```bash
+$ exit
+logout
 ```
