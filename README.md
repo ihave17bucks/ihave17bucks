@@ -72,7 +72,7 @@ echo "and no im not fat"
 ```bash
 $ tree ~/projects -L 1
 projects/
-├── WebOS/          # Tyepscript like Linux distro
+├── WebOS/          # Typescript like Linux distro
 ├── FunnyFlow/       # Franework I forgot about
 
 ```
