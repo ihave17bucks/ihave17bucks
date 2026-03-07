@@ -1,4 +1,4 @@
-# hey, I'm Rust/ihave17bucks if you want to use my username
+# hey, I'm Rust
 
 I make things. Sometimes they even work.
 
@@ -25,7 +25,7 @@ Mostly hanging out at the intersection of low-level systems and "why does this s
 
 ## open source
 
-Currently trying contributing to **[LazyVim](https://github.com/LazyVim/LazyVim)** — a Neovim config framework built on top of lazy.nvim.
+Currently trying contributing to **[LazyVim](https://github.com/LazyVim/LazyVim)** a Neovim config framework built on top of lazy.nvim.
 
 Working on:
 - Language extras with proper LSP setups
