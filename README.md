@@ -1,112 +1,76 @@
-```
-╔═══════════════════════════════════════════════════════════════╗
-║                            water                              ║
-╚═══════════════════════════════════════════════════════════════╝
-```
+# hey, I'm Rust/ihave17bucks if you want to use my username
 
-```bash
-$ neofetch
-```
+I make things. Sometimes they even work.
 
-```
-                   -`                    ihave17bucks@github
-                  .o+`                   -------------------
-                 `ooo/                   OS: Garuda Linux x86_64
-                `+oooo:                  Host: GitHub
-               `+oooooo:                 Shell: fish 4.2.1
-               -+oooooo+:                Uptime: coding since forever
-             `/:-:++oooo+:               Packages: C++, Javascript, Python
-            `/++++/+++++++:              Display: 2560x1600 @ 1.25x in 16", 240 Hz [Built-in]
-           `/++++++++++++++:             WM: CatppuccinMocha-Classic
-          `/+++ooooooooooooo/`           Theme: Mokka (Mokka) [Qt]
-         ./ooosssso++osssssso+`          Terminal: konsole 25.8.3
-        .oossssso-````/ossssss+`         CPU: AMD Ryzen AI 9 365 (20) @ 5.09 GHz
-       -osssssso.      :ssssssso.        
-      :osssssss/        osssso+++.       
-     /ossssssss/        +ssssooo/-       
-   `/ossssso+/:-        -:/+osssso+-     
-  `+sso+:-`                 `.-/+oso:    
- `++:.                           `-/+/   
- .`                                 `/   
-```
+Mostly hanging out at the intersection of low-level systems and "why does this segfault" building stuff in C++/C, Rust, and Lua whenever I get the chance. If it compiles, I'm happy. If it runs fast, I'm ecstatic.
 
 ---
 
-## 📁 `~/workspace/`
+## what i work with
 
-```bash
-#!/bin/bash
-# What I work with
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+![Lua](https://img.shields.io/badge/Lua-2C2D72?style=flat-square&logo=lua&logoColor=white)
+![Arch](https://img.shields.io/badge/Arch_Linux-1793D1?style=flat-square&logo=arch-linux&logoColor=white)
+![Neovim](https://img.shields.io/badge/Neovim-57A143?style=flat-square&logo=neovim&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
-declare -A stack=(
-  [primary]="C++"
-  [secondary]="Python, Javascript, Lua"
-  [tools]="gcc cmake make gdb valgrind"
-  [editor]="VS Code"
-  [vcs]="git"
-)
-
-echo "yes i use arch"
-echo "no im not a femboy"
-echo "and no im not fat"
-```
+| Language | Why I use it |
+|----------|-------------|
+| **C++** | when i need it fast and painful |
+| **Rust** | when i need it fast and *safe* (and the borrow checker is feeling generous) |
+| **Lua** | for scripting, config, and Neovim shenanigans |
 
 ---
 
-## 📊 `git log --stat`
+## open source
 
-<div align="center">
+Currently trying contributing to **[LazyVim](https://github.com/LazyVim/LazyVim)** — a Neovim config framework built on top of lazy.nvim.
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ihave17bucks&show_icons=true&theme=gruvbox&hide_border=true&bg_color=1d2021&title_color=ebdbb2&text_color=d5c4a1&icon_color=fe8019)
+Working on:
+- Language extras with proper LSP setups
+- Lazy-loading everything that can be lazy-loaded
+- Treesitter parsers and language-specific keymaps
+- Making sure configs are always user-overridable
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ihave17bucks&layout=compact&theme=gruvbox&hide_border=true&bg_color=1d2021&title_color=ebdbb2&text_color=d5c4a1)
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=ihave17bucks&theme=gruvbox&hide_border=true&background=1d2021&ring=fe8019&fire=fe8019&currStreakLabel=d5c4a1)
-
-</div>
-
----
-
-## 🚀 `./current-projects`
-
-```bash
-$ tree ~/projects -L 1
-projects/
-├── WebOS/          # Typescript like Linux distro
-├── FunnyFlow/       # Franework I forgot about
-
-```
-
-**→** Check pinned repositories below
+If you use Neovim, you should probably check it out.
 
 ---
 
-## 📡 `curl -X GET /contact`
+## what i'm up to
 
-```json
-{
-  "github": "github.com/ihave17bucks",
-  "status": "idk",
-  "availability": "open to collaboration",
-  "motto": "i use arch btw"
-}
-```
+- Tinkering with systems-level projects in C++ and Rust
+- Contributing language extras to LazyVim
+- Going deeper into the Rust ecosystem (the language, not me)
+- Constantly over-engineering my Neovim config instead of actually writing code
 
 ---
 
-<div align="center">
+## a few things about me
 
-```
-┌─────────────────────────────────────────────┐
-│  "I have exactly 17 bucks and Arch Linux"  │
-│            That's all I need.               │
-└─────────────────────────────────────────────┘
-```
+- I like making stuff. That's kind of the whole deal.
+- Arch Linux user (btw)
+- My editor is Neovim and I will die on this hill
+- Firmly in the "rewrite it in Rust" camp
+- I think about memory layout more than is probably healthy
+- The best code is fast code. The second best is code that actually runs.
 
-**`Don't End Yourself just beat it`**
+---
 
-```bash
-$ echo "alright bye" && exit 0
-```
+## 📊 stats
 
-</div>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=ihave17bucks&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ihave17bucks&layout=compact&theme=tokyonight&hide_border=true" />
+</p>
+
+---
+
+## get in touch
+
+Got a cool project? Found a bug in something I made? Just want to talk about why Rust (the language) is great?
+here is my email (btw) amirlolz897@gmail.com alright bye bye
+
+Feel free to open an issue, send a PR, or just poke around my repos.
+
+> *"Make it work, make it right, make it fast — then rewrite it in Rust."*
