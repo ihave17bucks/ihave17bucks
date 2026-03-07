@@ -1,12 +1,12 @@
-# hey, I'm Rust
+# hey, I'm Rust 👋
 
 I make things. Sometimes they even work.
 
-Mostly hanging out at the intersection of low-level systems and "why does this segfault" building stuff in C++/C, Rust, and Lua whenever I get the chance. If it compiles, I'm happy. If it runs fast, I'm ecstatic.
+Mostly hanging out at the intersection of low-level systems and "why does this segfault" building stuff in C++, Rust, and Lua whenever I get the chance. If it compiles, I'm happy. If it runs fast, I'm ecstatic.
 
 ---
 
-## what i work with
+## 🛠️ what i work with
 
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
@@ -25,7 +25,7 @@ Mostly hanging out at the intersection of low-level systems and "why does this s
 
 ## open source
 
-Currently trying contributing to **[LazyVim](https://github.com/LazyVim/LazyVim)** a Neovim config framework built on top of lazy.nvim.
+Currently tring contributing to **[LazyVim](https://github.com/LazyVim/LazyVim)** a Neovim config framework built on top of lazy.nvim.
 
 Working on:
 - Language extras with proper LSP setups
@@ -39,10 +39,10 @@ If you use Neovim, you should probably check it out.
 
 ## what i'm up to
 
-- Tinkering with systems-level projects in C++ and Rust
-- Contributing language extras to LazyVim
-- Going deeper into the Rust ecosystem (the language, not me)
-- Constantly over-engineering my Neovim config instead of actually writing code
+- 🔩 Tinkering with systems-level projects in C++ and Rust
+- 📝 Contributing language extras to LazyVim
+- 📖 Going deeper into the Rust ecosystem (the language, not me)
+- ⚙️ Constantly over-engineering my Neovim config instead of actually writing code
 
 ---
 
@@ -57,7 +57,7 @@ If you use Neovim, you should probably check it out.
 
 ---
 
-## 📊 stats
+## stats
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=ihave17bucks&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
@@ -69,8 +69,7 @@ If you use Neovim, you should probably check it out.
 ## get in touch
 
 Got a cool project? Found a bug in something I made? Just want to talk about why Rust (the language) is great?
-here is my email (btw) amirlolz897@gmail.com alright bye bye
 
-Feel free to open an issue, send a PR, or just poke around my repos.
+Feel free to open an issue, send a PR, or just poke around my repos. here is my email programmingnerdamir@gmail.com okay bye
 
 > *"Make it work, make it right, make it fast — then rewrite it in Rust."*
