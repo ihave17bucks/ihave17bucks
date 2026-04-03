@@ -25,8 +25,6 @@ Mostly hanging out at the intersection of low-level systems and "why does this s
 
 ## open source
 
-Currently tring contributing to **[LazyVim](https://github.com/LazyVim/LazyVim)** a Neovim config framework built on top of lazy.nvim.
-
 Working on:
 - Language extras with proper LSP setups
 - Lazy-loading everything that can be lazy-loaded
