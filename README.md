@@ -1,4 +1,4 @@
-# hey, I'm Rust 👋
+# hey, I'm dex
 
 I make things. Sometimes they even work.
 
@@ -52,15 +52,6 @@ If you use Neovim, you should probably check it out.
 - Firmly in the "rewrite it in Rust" camp
 - I think about memory layout more than is probably healthy
 - The best code is fast code. The second best is code that actually runs.
-
----
-
-## stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ihave17bucks&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ihave17bucks&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
 
 ---
 
